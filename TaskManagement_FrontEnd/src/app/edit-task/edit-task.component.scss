@@ -1,0 +1,51 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    // background: #828baa;
+    height: auto;
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.xx {
+    background: #828baa;
+    height: 600px;
+    right: 0px;
+}
+
+body {
+    height: 800px;
+    background: #828baa;
+}
+.savebtn {
+    padding-left: 270px;
+    padding-right: 275px;
+}
+
+.text-center {
+    text-align: center;
+    margin-left: 0px;
+    
+    
+  }
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+// .note  
+// {  
+//     text-align: center;  
+//     height: auto;  
+//     background: -webkit-linear-gradient(left, #0072ff, #8811c5);  
+//     color: #fff;  
+//     font-weight: bold;  
+//     line-height: auto;  
+// }   

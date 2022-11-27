@@ -1,0 +1,27 @@
+<button type="button" [routerLink]="['/home']" class="btn btn-dark m-3">Home Page</button>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Task ID</th>
+            <th scope="col">Task Name</th>
+            <th scope="col">Task Type </th>
+            <th scope="col">Time</th>
+            <th scope="col">$/h</th>
+            <th scope="col">Complition Time</th>
+            <th scope="col">Note</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let task of taskList">
+            <td>{{task.TaskID}}</td>
+            <td>{{task.TaskName}}</td>
+            <td>{{task.TaskType}}</td>
+            <td>{{task.StartTime| date:'HH:mm'}}</td>
+            <td>{{task.Amount}}</td>
+            <td>{{task.CompleteDate|date}}</td>
+            <td>{{task.TaskNote}}</td>
+            <td><a [routerLink]="['/editTask',task.TaskID]">Edit</a></td>
+        </tr>
+
+    </tbody>
+</table>
